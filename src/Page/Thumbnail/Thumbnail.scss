@@ -1,0 +1,56 @@
+.container{
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0 ;
+  right: 0;
+  bottom: 0;
+}
+
+.thumbnail{
+ max-width: 1440px;
+ margin: auto;
+ display: flex;
+ img{
+   width: 120px;
+   height: 120px;
+   margin-right: 5px;
+   @media(min-width: 992px){
+    width: 300px;
+    height: auto;
+    margin-right: 30px;
+   }
+ }
+
+ .border{
+   border-left: 5px solid #2F2E41;
+   padding-left: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   @media(min-width: 992px){
+    padding-left: 30px;
+   }
+ }
+ .name__app{
+  font-size: 20px;
+  font-weight: 600;
+  color: #2F2E41;
+  @media(min-width: 992px){
+    font-size: 40px;
+  }
+ }
+
+ .text{
+   max-width: 600px;
+   text-align: center;
+   font-size: 12px;
+   font-weight: 600;
+   @media(min-width: 992px){
+    font-size: 15px;
+  }
+ }
+}

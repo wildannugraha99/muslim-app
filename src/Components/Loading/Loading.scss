@@ -1,0 +1,10 @@
+.loading{
+  div{
+    width: 70px !important;
+    height: unset !important;
+    @media(min-width: 992px){
+      width: 180px !important;
+    }
+  }
+}
+

@@ -1,0 +1,63 @@
+.card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  @media(min-width: 992px){
+    gap: 20px;
+  }
+}
+
+.card_container{
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #2F2E41;
+  box-shadow: #09072e 3px 3px 1px;
+  border-radius: 5px;
+  background-color: #2F2E41;
+  color: white;
+  width: 100%;
+  padding: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+  @media(min-width: 720px){
+    width: 300px;
+  }
+  @media(min-width: 1024px){
+    width: 320px
+  }
+  .number_surah{
+    margin-right: 20px;
+    font-size: 15px;
+  }
+  .surah_name{
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .arti_surah{
+    font-size: 14px;
+    color: rgb(194, 194, 194);
+  }
+}
+
+.card_container:hover{
+  background-color: rgb(2, 6, 34);
+}
+
+.flex-1{
+  margin-right: 20px;
+}
+
+.flex-2{
+ display: flex;
+}
+
+.asma{
+  font-size: 20px;
+}

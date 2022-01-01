@@ -1,0 +1,36 @@
+.main_content{
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.view_more{
+  display: flex;
+  margin: 30px auto;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: fit-content;
+  transition: .5s;
+  border: 1px solid #2F2E41;
+  border-radius: 4px;
+  padding: 1px 10px;
+  color: #2F2E41;
+  img{
+    display: flex;
+    width: 30px;
+  }
+  
+}
+
+.view_more:hover{
+  background-color: #2F2E41;
+  color: white;
+  img{
+    filter:  brightness(0) invert(1);
+  }
+}
+
+.view_more-hide{
+  display: none;
+}
